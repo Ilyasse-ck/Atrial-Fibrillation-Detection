@@ -1,6 +1,6 @@
 # Atrial Fibrillation Detection Project
 
-This project focuses on detecting atrial fibrillation (AF) using ECG data. The implementation is organized into four main directories, each serving a distinct purpose within the workflow, from data preparation to model training.
+This project focuses on detecting atrial fibrillation (AF) using ECG data coming from raw XML files. The implementation is organized into four main directories, each serving a distinct purpose within the workflow, from data preparation to model training.
 
 ---
 
@@ -13,7 +13,7 @@ This directory contains functions for handling the raw XML data files from Muse 
 - **`1. ECG_anonymizer/anonymizer_v11.exe`**: An executable file to anonymize the ECG data of patients, ensuring compliance with data privacy standards.
 
 ### 2. **Training Data**
-This directory contains a subset of the ECG data that has been anonymized. The data is prepared for use in training the detection model.
+This directory contains the training and data set. The data is already prepared for any further inquries about the data preparation contact me at ilyassechaouki16@gmail.com.
 
 ### 3. **Model**
 This directory houses the ResNet50 model architecture used for training. ResNet50 is chosen for its efficiency and identifying patterns indicative of atrial fibrillation.
@@ -28,8 +28,6 @@ This directory contains the code to convert ECG signals into spectrograms. Spect
 ## Workflow Overview
 1. **Data Decryption and Anonymization**:
    - Use the scripts in the **Data Processing** directory to decrypt and anonymize raw ECG data files.
-
-
 
 2. **Model Training**:
    - Utilize the prepared training data and the **ResNet50 Model** for training to classify atrial fibrillation.
