@@ -1,1 +1,1 @@
-Read README.MI for further information abou the data set
+Read README.MI in the main directory for further information abou the data sets
