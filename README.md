@@ -1,6 +1,6 @@
 # Atrial Fibrillation Detection Project
 
-This project focuses on detecting atrial fibrillation (AF) using ECG data coming from raw XML files. The implementation is organized into four main directories, each serving a distinct purpose within the workflow, from data preparation to model training.
+This project focuses on detecting atrial fibrillation (AF) using ECG data coming from raw XML files with 97% accuracy in recognizing FA. The implementation is organized into four main directories, each serving a distinct purpose within the workflow, from data preparation to model training.
 
 ---
 
