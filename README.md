@@ -8,9 +8,9 @@ This project focuses on detecting atrial fibrillation (AF) using ECG data coming
 
 ### 1. **Data Processing**
 This directory contains functions for handling the raw XML data files from Muse GE machines and preparing them for analysis.
-
-- **`2. ECG Muse decrypt/ECG_MUSE_DECRYPT.py`**: A function to decrypt the XML data files based on the work of A. Ricke.
 - **`1. ECG_anonymizer/anonymizer_v11.exe`**: An executable file to anonymize the ECG data of patients, ensuring compliance with data privacy standards.
+- **`2. ECG Muse decrypt/ECG_MUSE_DECRYPT.py`**: A function to decrypt the XML data files based on the work of A. Ricke.
+
 
 ### 2. **Training Data**
 This directory contains the training and data set. The data is already prepared for any further inquries about the data preparation contact me at ilyassechaouki16@gmail.com.
